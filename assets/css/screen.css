@@ -1,7 +1,7 @@
-@import url("");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap");
 
 html {
-  font-family: Poppins, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  font-family: Noto Sans JP, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   background: #8a8a8a;
   font-size: 1.125em;
 }
@@ -14,7 +14,7 @@ h1 {
 }
 
 button, input {
-  font-family: Calibri, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  font-family: Noto Sans JP, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   overflow: visible;
   background-color: #b5b5b5;
   border-color: transparent;
@@ -38,5 +38,10 @@ li {
   #wrap {
     display: inline-block;
     justify-content: center;
+  }
+  html {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
   }
 }

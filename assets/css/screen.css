@@ -17,6 +17,11 @@ input {
   margin-bottom: 0.5em;
 }
 
+fieldset {
+  border-color: transparent;
+  background-color: #b5b5b5;
+}
+
 @media screen and (min-width: 18.75em) {
   #wrap {
     display: inline-block;

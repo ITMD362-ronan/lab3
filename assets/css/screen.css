@@ -24,6 +24,11 @@ fieldset {
   border-color: transparent;
 }
 
+label {
+  display block;
+  padding-bottom: 1em;
+}
+
 @media screen and (min-width: 18.75em) {
   #wrap {
     display: inline-block;

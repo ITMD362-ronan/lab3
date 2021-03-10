@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap");
+@import url("");
 
 html {
   font-family: Poppins, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
@@ -26,6 +26,11 @@ fieldset {
 
 label {
   display: block;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+li {
   padding-bottom: 1em;
 }
 
